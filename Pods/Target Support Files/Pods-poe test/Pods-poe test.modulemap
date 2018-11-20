@@ -1,0 +1,6 @@
+framework module Pods_poe_test {
+  umbrella header "Pods-poe test-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -111,7 +111,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tabl.reloadData()
     }
     
-    //SUBMIT BUTTON
+    //SUBMIT BUTTON//
     @IBAction func userSubmit(_ sender: Any) {
         let loginUrl = "http://www.pathofexile.com/login"
         let loginObj = URL(string: loginUrl)

@@ -14,6 +14,7 @@
 		3D4867132161C95800818A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4867112161C95800818A28 /* LaunchScreen.storyboard */; };
 		3D48671E2161C95800818A28 /* poe_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48671D2161C95800818A28 /* poe_testTests.swift */; };
 		3D4867292161C95800818A28 /* poe_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4867282161C95800818A28 /* poe_testUITests.swift */; };
+		DF859E8F01A9BAA074C1FCA4 /* Pods_poe_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF7C334A964E850D14DF8B /* Pods_poe_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24CF7C334A964E850D14DF8B /* Pods_poe_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poe_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4867052161C95400818A28 /* poe test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poe test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4867082161C95400818A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D48670A2161C95400818A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		3D4867242161C95800818A28 /* poe testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poe testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4867282161C95800818A28 /* poe_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poe_testUITests.swift; sourceTree = "<group>"; };
 		3D48672A2161C95800818A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D98A2B531A71B3C63F7BD35 /* Pods-poe test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poe test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poe test/Pods-poe test.debug.xcconfig"; sourceTree = "<group>"; };
+		B10011D99712C59B4E502E77 /* Pods-poe test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poe test.release.xcconfig"; path = "Pods/Target Support Files/Pods-poe test/Pods-poe test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF859E8F01A9BAA074C1FCA4 /* Pods_poe_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				3D48671C2161C95800818A28 /* poe testTests */,
 				3D4867272161C95800818A28 /* poe testUITests */,
 				3D4867062161C95400818A28 /* Products */,
+				F5D3A099CB6B6E3A0937C0D0 /* Pods */,
+				C9A0DC564703F8BAE69CE068 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = "poe testUITests";
 			sourceTree = "<group>";
 		};
+		C9A0DC564703F8BAE69CE068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CF7C334A964E850D14DF8B /* Pods_poe_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D3A099CB6B6E3A0937C0D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D98A2B531A71B3C63F7BD35 /* Pods-poe test.debug.xcconfig */,
+				B10011D99712C59B4E502E77 /* Pods-poe test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D48672D2161C95800818A28 /* Build configuration list for PBXNativeTarget "poe test" */;
 			buildPhases = (
+				F2D4452D29A2034F57D1FC79 /* [CP] Check Pods Manifest.lock */,
 				3D4867012161C95400818A28 /* Sources */,
 				3D4867022161C95400818A28 /* Frameworks */,
 				3D4867032161C95400818A28 /* Resources */,
+				F1FBFDE0846F9A10A39BEDBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +276,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1FBFDE0846F9A10A39BEDBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-poe test/Pods-poe test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poe test/Pods-poe test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D4452D29A2034F57D1FC79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poe test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D4867012161C95400818A28 /* Sources */ = {
@@ -430,9 +505,11 @@
 		};
 		3D48672E2161C95800818A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D98A2B531A71B3C63F7BD35 /* Pods-poe test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7794693WJK;
 				INFOPLIST_FILE = "poe test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +524,11 @@
 		};
 		3D48672F2161C95800818A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10011D99712C59B4E502E77 /* Pods-poe test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7794693WJK;
 				INFOPLIST_FILE = "poe test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

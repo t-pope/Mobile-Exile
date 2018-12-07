@@ -14,6 +14,10 @@
 		3D4867132161C95800818A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4867112161C95800818A28 /* LaunchScreen.storyboard */; };
 		3D48671E2161C95800818A28 /* poe_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48671D2161C95800818A28 /* poe_testTests.swift */; };
 		3D4867292161C95800818A28 /* poe_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4867282161C95800818A28 /* poe_testUITests.swift */; };
+		3D844D4221BA705A003EACEA /* Fontin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D844D3E21BA705A003EACEA /* Fontin-Regular.ttf */; };
+		3D844D4321BA705A003EACEA /* Fontin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D844D3F21BA705A003EACEA /* Fontin-Italic.ttf */; };
+		3D844D4421BA705A003EACEA /* Fontin-SmallCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D844D4021BA705A003EACEA /* Fontin-SmallCaps.ttf */; };
+		3D844D4521BA705A003EACEA /* Fontin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D844D4121BA705A003EACEA /* Fontin-Bold.ttf */; };
 		DF859E8F01A9BAA074C1FCA4 /* Pods_poe_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF7C334A964E850D14DF8B /* Pods_poe_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +53,10 @@
 		3D4867242161C95800818A28 /* poe testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poe testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4867282161C95800818A28 /* poe_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poe_testUITests.swift; sourceTree = "<group>"; };
 		3D48672A2161C95800818A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D844D3E21BA705A003EACEA /* Fontin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontin-Regular.ttf"; sourceTree = "<group>"; };
+		3D844D3F21BA705A003EACEA /* Fontin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontin-Italic.ttf"; sourceTree = "<group>"; };
+		3D844D4021BA705A003EACEA /* Fontin-SmallCaps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontin-SmallCaps.ttf"; sourceTree = "<group>"; };
+		3D844D4121BA705A003EACEA /* Fontin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontin-Bold.ttf"; sourceTree = "<group>"; };
 		9D98A2B531A71B3C63F7BD35 /* Pods-poe test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poe test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poe test/Pods-poe test.debug.xcconfig"; sourceTree = "<group>"; };
 		B10011D99712C59B4E502E77 /* Pods-poe test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poe test.release.xcconfig"; path = "Pods/Target Support Files/Pods-poe test/Pods-poe test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +112,7 @@
 		3D4867072161C95400818A28 /* poe test */ = {
 			isa = PBXGroup;
 			children = (
+				3D844D3521BA700D003EACEA /* Fonts */,
 				3D4867082161C95400818A28 /* AppDelegate.swift */,
 				3D48670A2161C95400818A28 /* ViewController.swift */,
 				3D48670C2161C95400818A28 /* Main.storyboard */,
@@ -130,6 +139,17 @@
 				3D48672A2161C95800818A28 /* Info.plist */,
 			);
 			path = "poe testUITests";
+			sourceTree = "<group>";
+		};
+		3D844D3521BA700D003EACEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D844D4121BA705A003EACEA /* Fontin-Bold.ttf */,
+				3D844D3F21BA705A003EACEA /* Fontin-Italic.ttf */,
+				3D844D3E21BA705A003EACEA /* Fontin-Regular.ttf */,
+				3D844D4021BA705A003EACEA /* Fontin-SmallCaps.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		C9A0DC564703F8BAE69CE068 /* Frameworks */ = {
@@ -256,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D4867132161C95800818A28 /* LaunchScreen.storyboard in Resources */,
+				3D844D4421BA705A003EACEA /* Fontin-SmallCaps.ttf in Resources */,
+				3D844D4321BA705A003EACEA /* Fontin-Italic.ttf in Resources */,
+				3D844D4521BA705A003EACEA /* Fontin-Bold.ttf in Resources */,
 				3D4867102161C95800818A28 /* Assets.xcassets in Resources */,
 				3D48670E2161C95400818A28 /* Main.storyboard in Resources */,
+				3D844D4221BA705A003EACEA /* Fontin-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,15 +311,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-poe test/Pods-poe test-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
